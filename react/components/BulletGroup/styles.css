@@ -1,0 +1,31 @@
+.bullet__container {
+    display: flex;
+    overflow: auto;
+    gap: 20px;
+    background-color: #FFF;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.bullet__item {
+    width: 100px;
+    height: 150px;
+}
+
+.bullet__item--link {
+    text-decoration: none;
+    color: #0027AD;
+}
+
+.bullet__item--image {
+    display: block;
+    margin: 0 auto;
+    max-width: 75px;
+    height: 75px;
+    border-radius: 15%;
+}
+
+.bullet__item--title {
+    color: #0027AD;
+    text-align: center;
+}
